@@ -1,0 +1,9 @@
+<h1>Buscar pelicula: <small> {{ texto }} </small></h1>
+
+<div class="row">
+    <div class="col">
+
+        <app-peliculas-poster-grid *ngIf="(resultado.length>0)" [peliculas]="resultado"></app-peliculas-poster-grid>
+
+    </div>
+</div>
